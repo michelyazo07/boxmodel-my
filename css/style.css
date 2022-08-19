@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(208, 251, 145);
+}
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+.bob {
+    height: 450px;
+    background-color: rgb(214, 137, 163);
+    background-image: url(../images/bob-esponja.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    padding-left: 50px;
+}
+.patricio {
+    height: 450px;
+    background-color: paleturquoise;
+    background-image: url(../images/PatricioEstrella.webp);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+}
+/*fuentes*/
+
+h1,h2,h3 {
+    font-family: 'Fredoka One', cursive;
+}
+p{
+    font-family: 'Patrick Hand', cursive;
+}
